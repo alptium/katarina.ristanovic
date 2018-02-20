@@ -5,45 +5,44 @@ public class gradeBook {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-try(Scanner sc = new Scanner(System.in)) {
+			try(Scanner sc = new Scanner(System.in)) {
 			
-			int suma = 0;
-			
-			
-			String ucenikIme1 = "Marija";
-			String ucenikPrezime1 = "Jovic";
-			System.out.println("Unesite ocenu " + ucenikIme1 + " " +ucenikPrezime1);
-			int ocena1 = sc.nextInt();
-			
-			String ucenikiIme2 = "Marko";
-			String ucenikiPrezime2 = "Petrovic";
-			System.out.println("Unesite ocenu " + ucenikiIme2 + " " + ucenikiPrezime2);
-			int ocena2 = sc.nextInt();
-			
-			String ucenikIme3 = "Ivana";
-			String ucenikPrezime3 = "Krstic";
-			System.out.println("Unesite ocenu  " + ucenikIme3 + " " + ucenikPrezime3 );
-			int ocena3 = sc.nextInt();
-			
-			String ucenikIme4 = "Nenad";
-			String ucenikPrezime4 = "Colic";
-			System.out.println("Unesite ocenu " + ucenikIme4 + " " + ucenikPrezime4 );
-			int ocena4 = sc.nextInt();
-			
-			String ucenikIme5 = "Jelena";
-			String ucenikPrezime5 = "Joksimovic";
-			System.out.println("Unesite ocenu " + ucenikIme5 + " " + ucenikPrezime5);
-			int ocena5 = sc.nextInt();
+			int sum = 0;
 			
 			
+			String studentName1 = "Marija";
+			String studentLastName1 = "Jovic";
+			System.out.println("Enter a grade " + studentName1 + " " + studentLastName1);
+			int grade1 = sc.nextInt();
 			
-			suma  = ocena1 + ocena2 + ocena3 + ocena4 + ocena5;
+			String studentName2 = "Marko";
+			String studentLastName2 = "Petrovic";
+			System.out.println("Enter a grade " + studentName2 + " " + studentLastName2);
+			int grade2 = sc.nextInt();
 			
-			int prosekOcena = suma/5;
+			String studentName3= "Ivana";
+			String studentLastName3 = "Krstic";
+			System.out.println("Enter a grade " + studentName3 + " " + studentLastName3 );
+			int grade3 = sc.nextInt();
+			
+			String studentName4 = "Nenad";
+			String studentLastName4 = "Colic";
+			System.out.println("Enter a grade " + studentName4 + " " + studentLastName4 );
+			int grade4 = sc.nextInt();
+			
+			String studentName5 = "Jelena";
+			String studentLastName5 = "Joksimovic";
+			System.out.println("Enter a grade " + studentName5 + " " + studentLastName5);
+			int grade5 = sc.nextInt();
 			
 			
 			
-			System.out.println("Prosek ocena Ms James je : " + prosekOcena);
+			sum  = grade1 + grade2 + grade3 + grade4 + grade5;
+			
+		
+			
+			
+			System.out.println("Ms Jamse sum of grade is : " +  sum );
 			
 		}
 
