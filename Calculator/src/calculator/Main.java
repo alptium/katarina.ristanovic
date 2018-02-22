@@ -4,37 +4,40 @@ import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) {
-			
-				try(Scanner sc = new Scanner(System.in)) {
-					
-					System.out.println("Enter first number: ");
-					int firstNumber = sc.nextInt();
-					
-					System.out.println("Choose operation +, -, * ,/ ");
-					String operation = sc.next();
-					
-					System.out.println("Enter second number");
-					int secondNumber = sc.nextInt();
+	 public static void main(String[] args){ 
+	    
+	        int num1;
+	        int num2;
+	        String operation;
 
-					System.out.println("System is calculating the result ...");
-					int result = 0;
+	        Scanner input = new Scanner(System.in);
+
+	        System.out.println("Please enter the first number");
+	        num1 = input.nextInt();
+
+	        System.out.println("Please enter the second number");
+	        num2 = input.nextInt();
+
+	        Scanner op = new Scanner(System.in);
+
+	        System.out.println("Please enter operation");
+	        operation = op.next();
 					
-					if(operation.equals("+")) {
-						result = firstNumber + secondNumber;
-					} else if(operation.equals("-")) {
-						result = firstNumber - secondNumber;
-					} else if(operation.equals("*")) {
-						result = firstNumber * secondNumber;		
-					} else if(operation.equals("/")) {
-						result = firstNumber / secondNumber;			
-					}
-				
-					System.out.println("First number is: " + firstNumber);
-					System.out.println("Second number is: " + secondNumber);
-					System.out.println("The result is: " + result);
-				}	
-			}
+	        if (operation == "+");{
+	        
+	            System.out.println("Your answer is " + (num1 + num2));
+	            
+	        }if  (operation == "-");{
+	        
+	            System.out.println("Your answer is " + (num1 - num2));
+	            
+	        }if (operation == "/");{
+	        
+	            System.out.println("Your answer is " + (num1 / num2));
+	            
+	        }if (operation == "*"){
+	        
+	            System.out.println("your answer is" + (num1 * num2));
+	        }
+	    }
 	}
-
-//this is just your calculator I just wanted to try if it works
