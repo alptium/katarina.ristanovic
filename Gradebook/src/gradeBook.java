@@ -18,7 +18,11 @@ public class gradeBook {
 			String studentName2 = "Marko";
 			String studentLastName2 = "Petrovic";
 <<<<<<< HEAD
+<<<<<<< HEAD
 			System.out.println("Unesite ocenu " + studentName2 + " " + studentLastName2);
+=======
+			System.out.println("Enter a grade " + studentName2 + " " + studentLastName2);
+>>>>>>> ad1a058688972d2a6a95f4bd1c8f931faf9a4dc8
 =======
 			System.out.println("Enter a grade " + studentName2 + " " + studentLastName2);
 >>>>>>> ad1a058688972d2a6a95f4bd1c8f931faf9a4dc8
@@ -27,7 +31,11 @@ public class gradeBook {
 			String studentName3= "Ivana";
 			String studentLastName3 = "Krstic";
 <<<<<<< HEAD
+<<<<<<< HEAD
 			System.out.println("Unesite ocenu  " + studentName3 + " " + studentLastName3 );
+=======
+			System.out.println("Enter a grade " + studentName3 + " " + studentLastName3 );
+>>>>>>> ad1a058688972d2a6a95f4bd1c8f931faf9a4dc8
 =======
 			System.out.println("Enter a grade " + studentName3 + " " + studentLastName3 );
 >>>>>>> ad1a058688972d2a6a95f4bd1c8f931faf9a4dc8
@@ -36,7 +44,11 @@ public class gradeBook {
 			String studentName4 = "Nenad";
 			String studentLastName4 = "Colic";
 <<<<<<< HEAD
+<<<<<<< HEAD
 			System.out.println("Unesite ocenu " + studentName4 + " " + studentLastName4 );
+=======
+			System.out.println("Enter a grade " + studentName4 + " " + studentLastName4 );
+>>>>>>> ad1a058688972d2a6a95f4bd1c8f931faf9a4dc8
 =======
 			System.out.println("Enter a grade " + studentName4 + " " + studentLastName4 );
 >>>>>>> ad1a058688972d2a6a95f4bd1c8f931faf9a4dc8
@@ -45,7 +57,11 @@ public class gradeBook {
 			String studentName5 = "Jelena";
 			String studentLastName5 = "Joksimovic";
 <<<<<<< HEAD
+<<<<<<< HEAD
 			System.out.println("Unesite ocenu " + studentName5 + " " + studentLastName5);
+=======
+			System.out.println("Enter a grade " + studentName5 + " " + studentLastName5);
+>>>>>>> ad1a058688972d2a6a95f4bd1c8f931faf9a4dc8
 =======
 			System.out.println("Enter a grade " + studentName5 + " " + studentLastName5);
 >>>>>>> ad1a058688972d2a6a95f4bd1c8f931faf9a4dc8
