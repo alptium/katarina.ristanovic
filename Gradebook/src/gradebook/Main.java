@@ -26,8 +26,8 @@ public class Main {
 
         int sum;
 
-        Scanner sc = new Scanner(System.in);
-        
+        try (Scanner sc = new Scanner(System.in)) {
+
             sudentName1 = sc.next();
             sudentLastName1 = sc.next();
             grade1 = sc.nextInt();
@@ -68,6 +68,6 @@ public class Main {
             System.out.println("Ms Jamse sum of grade is : " + sum);
         }
     }
-
+}
 
 
