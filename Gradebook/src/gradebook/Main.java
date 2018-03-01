@@ -4,68 +4,70 @@ import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-			try(Scanner sc = new Scanner(System.in)) {
-			
-			int sum = 0;
-			
-			String studentName1 = "Marija";
-			String studentLastName1 = "Jovic";
-			System.out.println("Enter a grade " + studentName1 + " " + studentLastName1);
-			int grade1 = sc.nextInt();
-			
-			String studentName2 = "Marko";
-			String studentLastName2 = "Petrovic";
+    public static void main(String[] args) {
 
-			System.out.println("Unesite ocenu " + studentName2 + " " + studentLastName2);
+        int grade1;
+        int grade2;
+        int grade3;
+        int grade4;
+        int grade5;
 
-			System.out.println("Enter a grade " + studentName2 + " " + studentLastName2);
+        String sudentName1;
+        String sudentName2;
+        String sudentName3;
+        String sudentName4;
+        String sudentName5;
 
-			System.out.println("Enter a grade " + studentName2 + " " + studentLastName2);
+        String sudentLastName1;
+        String sudentLastName2;
+        String sudentLastName3;
+        String sudentLastName4;
+        String sudentLastName5;
 
-			int grade2 = sc.nextInt();
-			
-			String studentName3 = "Ivana";
-			String studentLastName3 = "Krstic";
+        int sum;
 
-			System.out.println("Enter a grade " + studentName3 + " " + studentLastName3 );
-			
-			System.out.println("Enter a grade " + studentName3 + " " + studentLastName3 );
+        try (Scanner sc = new Scanner(System.in)) {
 
-			System.out.println("Enter a grade " + studentName3 + " " + studentLastName3 );
+            sudentName1 = sc.next();
+            sudentLastName1 = sc.next();
+            grade1 = sc.nextInt();
 
-			int grade3 = sc.nextInt();
-			
-			String studentName4 = "Nenad";
-			String studentLastName4 = "Colic";
+            System.out.println("Enter first and last name " + sudentName1 + sudentLastName1);
+            System.out.println("Enter a grade " + grade1);
 
-			System.out.println("Enter a grade " + studentName4 + " " + studentLastName4 );
+            sudentName2 = sc.next();
+            sudentLastName2 = sc.next();
+            grade2 = sc.nextInt();
 
-			System.out.println("Enter a grade " + studentName4 + " " + studentLastName4 );
+            System.out.println("Enter first and last name " + sudentName2 + sudentLastName2);
+            System.out.println("Enter a grade " + grade2);
 
-			System.out.println("Enter a grade " + studentName4 + " " + studentLastName4 );
+            sudentName3 = sc.next();
+            sudentLastName3 = sc.next();
+            grade3 = sc.nextInt();
 
-			int grade4 = sc.nextInt();
-			
-			String studentName5 = "Jelena";
-			String studentLastName5 = "Joksimovic";
+            System.out.println("Enter first and last name " + sudentName3 + sudentLastName3);
+            System.out.println("Enter a grade " + grade3);
 
-			System.out.println("Unesite ocenu " + studentName5 + " " + studentLastName5);
-			System.out.println("Enter a grade " + studentName5 + " " + studentLastName5);
+            sudentName4 = sc.next();
+            sudentLastName4 = sc.next();
+            grade4 = sc.nextInt();
 
+            System.out.println("Enter first and last name " + sudentName4 + sudentLastName4);
+            System.out.println("Enter a grade " + grade4);
 
-			System.out.println("Enter a grade " + studentName5 + " " + studentLastName5);
+            sudentName5 = sc.next();
+            sudentLastName5 = sc.next();
+            grade5 = sc.nextInt();
 
-			int grade5 = sc.nextInt();
-			
-			sum  = grade1 + grade2 + grade3 + grade4 + grade5;
-			
-			System.out.println("Ms Jamse sum of grade is : " +  sum );
-			
-		}
-	}
+            System.out.println("Enter first and last name " + sudentName5 + sudentLastName5);
+            System.out.println("Enter a grade " + grade5);
+
+            sum = grade1 + grade2 + grade3 + grade4 + grade5;
+
+            System.out.println("Ms Jamse sum of grade is : " + sum);
+        }
+    }
 }
-// I try to change everything I undersud but I am not sure that it is all ok.
-// For example what should I do for las comment about initialization of variables
+
+
