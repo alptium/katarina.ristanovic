@@ -18,10 +18,8 @@ public static void main(String[] args) {
     System.out.println("Please enter second number");
     num2 = sc.nextInt();
 
-    Scanner op = new Scanner (System.in);
-
     System.out.println("Please enter operation");
-    operation = op.next();
+    operation = sc.next();
 
     if (operation.equals("+")){
         System.out.println("Your answer is "+(num1 + num2));
